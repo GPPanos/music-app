@@ -1,0 +1,36 @@
+Music Player Project
+
+This simple music player project is designed to play MP3 files from a selected directory using Python. It utilizes the `pygame` library for audio playback and the `tkinter` library for creating a basic GUI.
+
+Getting Started
+
+Make sure you have Python installed on your machine. You can install the required dependencies using the following command:
+
+```bash
+pip install pygame mutagen
+```
+
+Usage
+
+1. Run the script and a basic GUI will appear.
+2. Click the "Choose Directory" button to select the folder containing your MP3 files.
+3. The program will load the MP3 files from the selected directory and display them in a list.
+4. Click on the song in the list to play it.
+5. Use the "Next," "Previous," "Pause," "Unpause," and "Stop" buttons to control playback.
+
+Dependencies
+
+- `pygame`: For audio playback
+- `mutagen`: For extracting metadata from MP3 files
+
+Features
+
+- Play/Pause functionality
+- Next/Previous song navigation
+- Stop playback
+
+Feel free to customize and enhance the project according to your preferences!
+
+Disclaimer
+
+This project is a basic implementation and may not cover all edge cases or provide an extensive set of features. Feel free to contribute and improve the functionality.
